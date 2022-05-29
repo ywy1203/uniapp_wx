@@ -1,0 +1,12 @@
+
+.show.data-v-630f2676{
+	color: blue;
+	height: 100%;
+	background-color: bisque;
+	overflow-y: hidden;
+}
+.text.data-v-630f2676{
+	position: relative;
+	word-wrap: break-word;
+}
+

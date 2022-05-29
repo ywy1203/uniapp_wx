@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['changeVipFlag',['$event']]]]]}}" hidden="{{!(flag)}}" class="home-vip-float" bindtap="__e"><image src="{{$root.m0}}" alt class="_img"></image></view></view>

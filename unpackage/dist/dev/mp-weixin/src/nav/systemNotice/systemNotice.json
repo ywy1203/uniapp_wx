@@ -1,0 +1,15 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-collapse": "/uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+    "uni-swipe-action": "/uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "navbar": "/src/components/nav-bar/nav-bar",
+    "tabbar": "/custom-tab-bar/index",
+    "reply-popup": "/src/nav/systemNotice-reply-popup/systemNotice-reply-popup",
+    "user-info-popup": "/src/nav/systemNotice-userInfo-popup/systemNotice-userInfo-popup",
+    "recommand-popup": "/src/nav/systemNotice-recommand-popup/systemNotice-recommand-popup",
+    "more-v-i-p-popup": "/src/nav/systemNotice-moreVIP-popup/systemNotice-moreVIP-popup"
+  }
+}

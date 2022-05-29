@@ -1,0 +1,106 @@
+
+.HotComponentShow.data-v-97e26dfc{
+	padding-top: 2vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.HotComponentShowNo.data-v-97e26dfc{
+	display: none;
+}
+.hotcomponent.data-v-97e26dfc{
+	height: 18vh;
+	width: 90vw;
+	border: solid 5rpx #D6D7D6;
+	border-radius: 20rpx;
+	display: flex;
+	align-items: center;
+	padding: 0 3vw;
+	box-shadow: 0 0 3rpx 3rpx rgba(0,0,0,0.1);
+}
+.hot-component-pic.data-v-97e26dfc{
+	height: 12vh;
+	width: 12vh;
+	border: solid 2px #424B60;
+}
+.hot-component-cont.data-v-97e26dfc{
+	height: 14vh;
+	flex:1;
+	padding-left: 20rpx;
+	padding-right: 45rpx;
+}
+.hot-component-cont-name.data-v-97e26dfc{
+	width: 100%;
+	height: 80%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.hot-component-cont-name1.data-v-97e26dfc{
+	color: #424B60;
+	font-size: 30rpx;
+	font-weight: 600;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.hot-component-cont-name2.data-v-97e26dfc{
+	color: #424B60;
+	font-size: 23rpx;
+	flex:1;
+}
+.hot-component-cont-like2.data-v-97e26dfc{
+	width:38%;
+}
+.hot-component-cont-like3.data-v-97e26dfc{
+	width:38%;
+}
+.hot-component-cont-like.data-v-97e26dfc{
+	width: 100%;
+	height: 20%;
+	margin-top: 6rpx;
+	box-sizing: border-box;
+	display: flex;
+	font-size: 20rpx;
+	justify-content: space-between;
+	color: #BBBBBB;
+}
+.hot-component-classification.data-v-97e26dfc{
+	height: 14vh;
+	width: 13vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.hot-component-classification-top.data-v-97e26dfc{
+	height: 3vh;
+	width: 13vw;
+	margin-bottom: 1vh;
+	border-radius: 1vh;
+	text-align: center;
+}
+.hot-component-classification-cont.data-v-97e26dfc{
+	height: 15vw;
+	width: 13vw;
+	border: solid 1rpx #D6D7D6;
+	border-radius: 1vh;
+	background: linear-gradient(180deg, white 60%, #D6D7D6 40%);
+}
+.hot-component-classification-cont-pic.data-v-97e26dfc{
+	height: 9vw;
+	width: 13vw;
+	font-size: 26rpx;
+	text-align: center;
+}
+.hot-component-classification-cont-clas.data-v-97e26dfc{
+	height: 6vw;
+	width: 13vw;
+	text-align: center;
+	font-size: 26rpx;
+	color: #424B60;
+	line-height: 6vw;
+}
+

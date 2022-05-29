@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "hotlist-detail": "/src/nav/hotlist/hotlist-detail"
+  }
+}

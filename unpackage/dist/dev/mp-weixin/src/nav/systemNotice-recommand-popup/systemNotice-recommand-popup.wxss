@@ -1,0 +1,86 @@
+
+.popup_recommand {
+	width: 88vw;
+	height: 77vw;
+	border-radius: 8vw;
+	background-color: #ffffff;
+	box-shadow: 0rpx 0rpx 25rpx -10rpx #3a3a3a;
+	position: fixed;
+	z-index: 1002;
+	/* margin-top: 15vh; */
+	margin: 15vh 5vw;
+	/* overflow: auto; */
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.title {
+	width: 40vw;
+	height: 9vw;
+	border-radius: 2vw;
+	line-height: 9vw;
+	background-color: #4491ce;
+	font-size: 28rpx;
+	color: #FFFFFF;
+	margin: -5vw auto;
+}
+.scrollY {
+	height: 44vw;
+	width: 80vw;
+	margin: 0 auto;
+	margin-top: 12%;
+	/* background-color: #c800ff; */
+}
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.userInfo_default {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	/* background-color: #00DDFF; */
+	margin-bottom: 3.5vw;
+	align-items: center;
+	font-weight: bold;
+}
+.userInfo_selected {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3.5vw;
+	align-items: center;
+	color: #4491ce;
+	font-weight: bold;
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-left: 2vw;
+}
+.userName {
+	margin-top: 1.5vw;
+	margin-bottom: 1.5vw;
+}
+.userCareer {
+	font-size: 18rpx;
+}
+.checkbox_default {
+	width: 3vw;
+	height: 3vw;
+	border: #919191 2rpx solid;
+	border-radius: 2vw;
+	margin-right: 1.5vw;
+	background-color: #FFFFFF;
+}
+.checkbox_selected {
+	width: 3vw;
+	height: 3vw;
+	border: #919191 2rpx solid;
+	border-radius: 2vw;
+	margin-right: 1.5vw;
+	background-color: #919191;
+}
+

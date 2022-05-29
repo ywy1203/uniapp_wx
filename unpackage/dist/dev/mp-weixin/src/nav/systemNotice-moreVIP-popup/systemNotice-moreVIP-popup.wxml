@@ -1,0 +1,1 @@
+<view><view class="popup_moreVIP" hidden="{{moreHidden_tmp}}"><text class="more_title">增加更多会员好友可以引进其他会员</text><image src="../../../static/icon/rec_confirm.png" mode="aspectFit" data-event-opts="{{[['tap',[['more_confirm',['$event']]]]]}}" bindtap="__e"></image></view></view>

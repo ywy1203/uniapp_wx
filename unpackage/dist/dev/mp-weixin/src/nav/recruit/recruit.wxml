@@ -1,0 +1,1 @@
+<view><navbar vue-id="5f32eb64-1" nav_btn="{{nav_btn}}" bind:__l="__l"></navbar><view class="top-bar-bg-maoboli"><view class="top-bar-bg"></view></view><view>公益招聘</view><to-be-vip vue-id="5f32eb64-2" bind:__l="__l"></to-be-vip><tabbar vue-id="5f32eb64-3" bind:__l="__l"></tabbar><how-to-vip vue-id="5f32eb64-4" bind:__l="__l"></how-to-vip></view>

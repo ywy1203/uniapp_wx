@@ -1,0 +1,71 @@
+// 高 240  tabbar 26  topnav 20  home-bg 202  top12
+
+.absolute-center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.fixed-center{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.absolute-width-center{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%)
+}
+.fixed-width-center{
+	position: fixed;	
+	left: 50%;
+	transform: translateX(-50%);
+}
+#{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.margin-width-center{
+	margin: 0 auto;
+}
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+image{
+	width: 100%;
+	height: 100%;
+}
+//头部遮罩
+.top-bar-bg-maoboli {
+   margin: 0vw 1.1vw;
+   width: 97.8vw;
+   height: 13.3vh;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 10;
+   background: linear-gradient(top, #1d256e 6vh, rgba(255, 255, 255, 0.1));
+   background: -webkit-linear-gradient(top, #1d256e 6vh, rgba(255, 255, 255, 0.1));
+   filter: blur(8rpx);
+  }
+ .top-bar-bg {
+  margin: 0vw 1.1vw;
+  width: 97.8vw;
+  height: 13.3vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  background: linear-gradient(top, #1d256e 6vh, rgba(29, 37, 110, -8));
+  background: -webkit-linear-gradient(top, #1d256e 6vh, rgba(29, 37, 110, -8));
+ }

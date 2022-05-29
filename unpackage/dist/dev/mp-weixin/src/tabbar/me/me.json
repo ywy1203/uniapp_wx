@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "to-be-vip": "/src/components/home-be-vip/home-be-vip",
+    "navbar": "/src/components/nav-bar/nav-bar",
+    "tabbar": "/custom-tab-bar/index"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="show data-v-630f2676"><view class="text data-v-630f2676" style="{{('top:'+top+'rpx;')}}"><slot></slot></view></view>

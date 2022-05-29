@@ -1,0 +1,62 @@
+
+.popup_userInfo {
+	width: 78vw;
+	height: 62vw;
+	border-radius: 8vw;
+	background-color: #ffffff;
+	box-shadow: 0rpx 0rpx 25rpx -10rpx #3a3a3a;
+	position: fixed;
+	z-index: 1002;
+	/* margin-top: 15vh; */
+	margin: 15vh 9.5vw;
+	/* overflow: auto; */
+	box-sizing: border-box;
+	text-align: center;
+}
+.userImg {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: auto;
+	/* background-color: #00DDFF; */
+	align-items: center;
+	margin: auto;
+	margin-top: -2vh;
+}
+.userImg text {
+	color: #4491ce;
+	font-weight: bold;
+	margin-top: 1vh;
+}
+.userImg image{
+	width: 14vw;
+	height: 14vw;
+	border-radius: 7vw;
+}
+.info1 {
+	font-size: 24rpx;
+	font-weight: bold;
+	margin-top: 8%;
+}
+.info2 {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 86%;
+	/* background-color: #00DDFF; */
+	margin-top: 6%;
+	justify-content: space-around;
+}
+.info2 image {
+	width: 5vw;
+	height: 5vw;
+	margin-right: 2vw;
+}
+.info3 {
+	display: flex;
+	flex-direction: row;
+	font-size: 20rpx;
+	width: 50%;
+	align-items: center;
+}
+

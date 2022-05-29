@@ -1,0 +1,25 @@
+
+.default.data-v-06c2cd63 {
+	width: 1200rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center !important;
+	/* background-color: #000000; */
+	margin-left: -15rpx;
+	justify-content: space-between !important;
+	margin-top: -30rpx;
+}
+.bell.data-v-06c2cd63 {
+	/* margin-left: -4rpx; */
+	width: 60rpx;
+	height: 60rpx;
+	margin-top: 10rpx;
+	/* margin-right: 10rpx; */
+}
+.box.data-v-06c2cd63 {
+	width: 75px;
+	background-color: #ffffff;
+	/* margin-left: 30rpx; */
+	/* margin-right: 10rpx; */
+}
+

@@ -1,0 +1,49 @@
+diff a/App.vue b/App.vue	(rejected hunks)
+@@ -1,32 +1,21 @@
+ <script>
+-	
+-export default {
+-	
+-	onLaunch: function() {
+-		
+-		console.log('App Launch');
+-	},
+-	onShow: function() {
+-		uni.getSystemInfo({
+-			success(res) {
+-				console.log(res.screenWidth)
+-				
+-				console.log(res.windowWidth)
+-			}
+-		})
+-		console.log('App Show');
+-	},
+-	onHide: function() {
+-		console.log('App Hide');
+-		
+-	},
+-	globalData: {
+-		index: 0, //用来跳转tabbar的下标
+-		messageNum: '' // 消息数量
++	export default {
++		onLaunch: function() {
++			console.log('App Launch')
++		},
++		onShow: function() {
++			console.log('App Show')
++		},
++		onHide: function() {
++			console.log('App Hide')
++		},
++		globalData:{
++			index:0 ,//用来跳转tabbar的下标
++			messageNum:'' // 消息数量
++		}
+ 	}
+-};
+ </script>
+ 
+ <style>
+-/*每个页面公共css */
++	/*每个页面公共css */
+ </style>

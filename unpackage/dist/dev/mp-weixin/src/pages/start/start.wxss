@@ -1,0 +1,116 @@
+.content.data-v-40d8f9be {
+  width: 100vw;
+  height: 100vh;
+}
+.get-phone.data-v-40d8f9be {
+  width: 70vw;
+  height: 30vh;
+  border-radius: 6vw ;
+  background-color: #fff;
+  box-shadow: 5rpx 5rpx 10rpx #888888;
+}
+.get-phone button.data-v-40d8f9be {
+  position: absolute;
+  bottom: 10%;
+  width: 80%;
+}
+.get-phone text.data-v-40d8f9be {
+  font-size: 6vw;
+  font-weight: 500;
+  color: black;
+  top: 20%;
+}
+.container.data-v-40d8f9be {
+  width: 30vw;
+  height: 30vw;
+  /* 相对定位 */
+  position: fixed;
+  top: 14vh;
+  left: 10vw;
+}
+.bubble.data-v-40d8f9be {
+  width: 100%;
+  height: 100%;
+  /* 径向渐变 */
+  background: radial-gradient(circle at 75% 30%, #fff 5px, #597dff 8%, #5b5b5b 60%, #597dff 100%);
+  border-radius: 50%;
+  /* 阴影 */
+  box-shadow: inset 0 0 3vw #fff, inset 1.5vw 0 7vw #eaf5fc, inset 12vw 0 9vw #6ba0ef, inset -3vw -9vw 15vw #e0edf9, inset 0 7.5vw 21vw #f9f6de, 0 0 14vw #fff;
+  /* 执行动画：动画名 时长 加速后减速 无限次播放 */
+  -webkit-animation: bubble-data-v-40d8f9be 5s ease-in-out infinite;
+          animation: bubble-data-v-40d8f9be 5s ease-in-out infinite;
+  position: relative;
+}
+.bubble text.data-v-40d8f9be {
+  color: #738628;
+  float: right;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.shadow.data-v-40d8f9be {
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 22vw;
+  height: 5.9vw;
+  border-radius: 50%;
+  /* 绝对定位 */
+  position: fixed;
+  top: 30vh;
+  left: 14vw;
+  /* 一点点模糊效果 */
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  /* 执行动画：动画名 时长 加速后减速 无限次播放 */
+  -webkit-animation: shadow-data-v-40d8f9be 5s ease-in-out infinite;
+          animation: shadow-data-v-40d8f9be 5s ease-in-out infinite;
+}
+/* 定义动画 */
+/* 泡泡浮动动画 */
+@-webkit-keyframes bubble-data-v-40d8f9be {
+0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+50% {
+    -webkit-transform: translateY(-5vh);
+            transform: translateY(-5vh);
+}
+}
+@keyframes bubble-data-v-40d8f9be {
+0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+50% {
+    -webkit-transform: translateY(-5vh);
+            transform: translateY(-5vh);
+}
+}
+/* 投影动画 */
+@-webkit-keyframes shadow-data-v-40d8f9be {
+0%,
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+}
+50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+@keyframes shadow-data-v-40d8f9be {
+0%,
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+}
+50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+

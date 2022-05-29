@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/src/components/nav-bar/nav-bar",
+    "tabbar": "/custom-tab-bar/index",
+    "to-be-vip": "/src/components/home-be-vip/home-be-vip",
+    "how-to-vip": "/src/components/how-to-vip/how-to-vip",
+    "hotlist-component": "/src/nav/hotlist/hotlist-component"
+  }
+}

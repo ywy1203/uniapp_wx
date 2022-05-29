@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "scroll": "/src/nav/hotlist/scroll"
+  }
+}

@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tab-bar.data-v-47b4a9d0 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10.8vh;
+  width: 97.8vw;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: env(safe-area-inset-bottom);
+  margin: 0vw 1vw;
+  margin-bottom: 0.4vh;
+  border-bottom-left-radius: 6vw;
+  border-bottom-right-radius: 6vw;
+}
+.tab-bar .tab-bar-item.data-v-47b4a9d0 {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tab-bar .tab-bar-item .tab_img.data-v-47b4a9d0 {
+  width: 8vw;
+  height: 4vh;
+}
+.tab-bar .tab-bar-item .tab_text.data-v-47b4a9d0 {
+  font-size: 2vh;
+  margin-top: 0.2vh;
+}
+
+
+page {
+	background-color: #4992d6;
+}
+.bg1 {
+	background-color: #ffffff;
+	height: 97vh;
+	width: 98vw;
+	margin: 0 1vw;
+	margin-top: -8.5vh;
+	border-radius: 40rpx;
+	padding-top: 10vh;
+	position: absolute;
+	/* top: 40rpx; */
+	box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
+}
+.bg2 {
+	background-color: #f1f1f1;
+	height: 76vh;
+	width: 98vw;
+	margin: 0 auto;
+	border-bottom-left-radius: 40rpx;
+	border-bottom-right-radius: 40rpx;
+	position: absolute;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.bg3 {
+	background-color: #ffffff;
+	/* height: 90vh; */
+	width: 98vw;
+	margin: 0 auto;
+	border-bottom-left-radius: 40rpx;
+	border-bottom-right-radius: 40rpx;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.cover {
+	background-color: #00ddff;
+	height: 10vh;
+	position: fixed;
+}
+.message-item {
+	flex: 1;
+	/* height: 80px; */
+	/* line-height: 100px; */
+	padding: 0 2.5vw;
+	position: relative;
+	background-color: #fff;
+	/* border-bottom: #e3e3e3 2rpx solid; */
+	display: flex;
+	flex-direction: row;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+	font-family: Microsoft YaHei;
+}
+.img {
+	width: 13vw;
+	height: 13vw;
+	border-radius: 50rpx;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20rpx;
+	/* padding-top: 15rpx; */
+}
+.time {
+	font-size: 22rpx;
+	color: #ababab;
+	font-weight: bold;
+	margin-top: 15rpx;
+	text-align: right;
+	width: 16%;
+	/* background-color: #00ddff; */
+}
+.title {
+	font-weight: bold;
+}
+.notification {
+	font-size: 20rpx;
+	color: #ababab;
+	margin-top: 32rpx;
+	font-weight: bold;
+}
+.point {
+	align-items: center !important;
+	display: flex !important;
+	margin-right: 10rpx;
+	width: 20rpx;
+}
+.red-point {
+	background-color: #ff0000;
+	width: 30rpx;
+	height: 30rpx;
+	border-radius: 20rpx;
+	margin-left: -30rpx;
+	margin-bottom: -30rpx;
+}
+.type {
+	width: 40rpx;
+	height: 40rpx;
+}
+.Type {
+	align-items: center !important;
+	display: flex !important;
+	margin-left: 36rpx;
+	margin-right: 10rpx;
+}
+.trash {
+	position: fixed;
+	bottom: 150rpx;
+	right: 50rpx;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.trash image {
+	width: 100rpx;
+	height: 100rpx;
+}
+.trash text {
+	font-size: 18rpx;
+	margin-top: 10rpx;
+	color: #a4a1a5;
+	/* font-weight: bold; */
+}
+.btn {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15rpx;
+	margin-left: -10rpx;
+	/* background-color: #000000; */
+}
+.btn image {
+	height: 50rpx;
+}
+.slot-button {
+
+	display: flex;
+	height: 100%;
+
+	flex: 1;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* padding: 0 20px; */
+	color: #ffffff;
+}
+.slot-button image {
+	width: 60rpx;
+	height: 60rpx;
+}
+.store {
+	background-color: #9fd9f5;
+	height: 100%;
+	width: 140rpx;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center !important;
+	justify-content: center;
+}
+.transmit {
+	background-color: #feac00;
+	height: 100%;
+	width: 140rpx;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.del {
+	background-color: #ff5a5f;
+	height: 100%;
+	width: 140rpx;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.popup_reply {
+	width: 75vw;
+	height: 28vh;
+	border-radius: 8vw;
+	background-color: #ffffff;
+	box-shadow: 0rpx 0rpx 25rpx -10rpx #3a3a3a;
+	position: fixed;
+	z-index: 1002;
+	margin-top: 15vh;
+	box-sizing: border-box;
+	text-align: center;
+}
+.popup_del {
+	width: 10vw;
+	height: 10vw;
+	margin-left: 89%;
+	margin-top: -2%;
+}
+.popup_textarea {
+	width: 80%;
+	height: 15%;
+	line-height: 15%;
+	font-size: 40rpx;
+	color: #878787;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	border: #cbcbcb 2rpx solid;
+	margin-top: 12%;
+	margin-bottom: 8%;
+}
+.popup_overlay {
+	/* background-color: #000000; */
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+}
+

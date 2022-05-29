@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/src/components/nav-bar/nav-bar",
+    "tabbar": "/custom-tab-bar/index",
+    "how-to-vip": "/src/components/how-to-vip/how-to-vip"
+  }
+}

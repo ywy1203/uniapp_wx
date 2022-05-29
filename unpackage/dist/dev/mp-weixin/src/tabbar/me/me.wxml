@@ -1,0 +1,1 @@
+<view><navbar class="vue-ref" vue-id="4602320f-1" data-ref="navbar" bind:__l="__l"></navbar><view class="top-bar-bg-maoboli"><view class="top-bar-bg"></view></view>me<to-be-vip vue-id="4602320f-2" bind:__l="__l"></to-be-vip><tabbar vue-id="4602320f-3" bind:__l="__l"></tabbar></view>

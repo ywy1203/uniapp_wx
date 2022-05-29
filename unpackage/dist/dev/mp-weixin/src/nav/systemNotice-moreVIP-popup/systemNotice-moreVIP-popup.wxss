@@ -1,0 +1,31 @@
+
+.popup_moreVIP {
+	width: 88vw;
+	height: 45vw;
+	border-radius: 4vw;
+	background-color: #ffffff;
+	box-shadow: 0rpx 0rpx 25rpx -10rpx #3a3a3a;
+	position: fixed;
+	z-index: 1002;
+	/* margin-top: 15vh; */
+	margin: 24vh 5vw;
+	/* overflow: auto; */
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.popup_moreVIP image {
+	width: 78vw;
+	height: 13vw;
+	margin: 0 auto;
+	margin-top: 7vw;
+}
+.more_title {
+	line-height: 9vw;
+	font-weight: bold;
+	font-size: 38rpx;
+	color: #9e9e9e;
+	margin-top: 10vw;
+}
+

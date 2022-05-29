@@ -1,0 +1,81 @@
+{
+    "pages": [
+        "src/pages/start/start",
+        "src/tabbar/home/home",
+        "src/tabbar/message/message",
+        "src/tabbar/schoolMoments/schoolMoments",
+        "src/tabbar/homePage/homePage",
+        "src/tabbar/me/me",
+        "custom-tab-bar/index",
+        "src/pages/login/login"
+    ],
+    "subPackages": [
+        {
+            "root": "src/nav/",
+            "pages": [
+                "hotlist/hotlist",
+                "live/live",
+                "recruit/recruit",
+                "search/search",
+                "systemNotice/systemNotice"
+            ]
+        },
+        {
+            "root": "subpkg",
+            "pages": [
+                "share/share",
+                "test/test"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "custom": true,
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "src/tabbar/home/home",
+                "text": "主页"
+            },
+            {
+                "pagePath": "src/tabbar/message/message",
+                "iconPath": "static/icon/22.png",
+                "selectedIconPath": "static/icon/1.png",
+                "text": "信息"
+            },
+            {
+                "pagePath": "src/tabbar/schoolMoments/schoolMoments",
+                "iconPath": "static/icon/24.png",
+                "selectedIconPath": "static/icon/3.png",
+                "text": "校友圈"
+            },
+            {
+                "pagePath": "src/tabbar/homePage/homePage",
+                "iconPath": "static/icon/4.png",
+                "selectedIconPath": "static/icon/4.png",
+                "text": "个人主页"
+            },
+            {
+                "pagePath": "src/tabbar/me/me",
+                "iconPath": "static/icon/23.png",
+                "selectedIconPath": "static/icon/5.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": ""
+        }
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

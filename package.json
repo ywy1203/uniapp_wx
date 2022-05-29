@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@hyoga/uni-socket.io": "^3.0.4",
+    "dayjs": "^1.10.5",
+    "socket.io": "^4.5.0",
+    "socket.io-client": "^4.5.0",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^1.5.5"
+  }
+}

@@ -1,0 +1,1 @@
+<view><navbar vue-id="4a985902-1" bind:__l="__l"></navbar><view class="top-bar-bg-maoboli"><view class="top-bar-bg"></view></view>message<to-be-vip vue-id="4a985902-2" bind:__l="__l"></to-be-vip><how-to-vip vue-id="4a985902-3" bind:__l="__l"></how-to-vip><tabbar vue-id="4a985902-4" selected="{{1}}" bind:__l="__l"></tabbar></view>
